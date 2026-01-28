@@ -1,0 +1,30 @@
+import { Link, Outlet } from "react-router-dom";
+
+function FrontendLayout() {
+  return (
+    <>
+      <header>
+        <ul className="nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">
+              首頁
+            </Link>
+            <Link className="nav-link" to="/product">
+              產品列表
+            </Link>
+            <Link className="nav-link" to="/cart">
+              購物車
+            </Link>
+          </li>
+        </ul>
+      </header>
+      <main>
+        {/* React Router 抽換元件頁面 */}
+        <Outlet />
+      </main>
+      <footer></footer>
+    </>
+  );
+}
+
+export default FrontendLayout;

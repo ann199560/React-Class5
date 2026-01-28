@@ -3,8 +3,8 @@ import axios from "axios";
 import * as bootstrap from "bootstrap";
 import "./assets/style.css";
 import ProductModal from "./components/ProductModal.jsx";
-import Pagination from "./components/pagination";
-import Login from "./views/Login";
+import Pagination from "./components/pagination.jsx";
+import Login from "./views/Login.jsx";
 
 const { VITE_API_BASE, VITE_API_PATH } = import.meta.env;
 
