@@ -19,15 +19,30 @@ body {
   margin: auto;
 }
 
-img {
-  object-fit: contain;
-  max-width: 100%;
-}
-
 .primary-image {
   height: 300px;
 }
 
 .images {
   height: 150px;
+  object-fit: contain;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body button {
+  margin-top: auto;
 }
