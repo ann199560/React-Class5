@@ -9,9 +9,13 @@ function FrontendLayout() {
             <Link className="nav-link" to="/">
               首頁
             </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/product">
               產品列表
             </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/cart">
               購物車
             </Link>
